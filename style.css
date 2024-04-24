@@ -39,6 +39,7 @@ a {
     height: auto;
     display: block;
     margin: 20px auto;
+    float: right;
 }
 
 /* Media query for responsiveness */
