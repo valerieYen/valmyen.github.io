@@ -4,6 +4,49 @@ html, body {
     padding: 0;
 }
 
+.navbar {
+    background-color: #090909;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    height: 50px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.menuOp {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    margin: 10px;
+    flex-grow: 1
+}
+
+.menuText {
+    color: white;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+#leftMenu {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactBtn {
+    flex-grow: 14;
+    text-align: right;
+    padding: 20px;
+}
+
 /* Global styles */
 body {
     font-family: Tahoma, sans-serif;
