@@ -57,6 +57,23 @@ html, body {
     padding: 20px;
 }
 
+#banner-img {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0 55%;
+}
+
+@media (max-width: 650px) {
+    #banner-img {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        object-position: center;
+    }
+}
+
 /* Global styles */
 body {
     font-family: Tahoma, sans-serif;
